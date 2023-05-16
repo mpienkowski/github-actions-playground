@@ -25,6 +25,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('github-actions-playground');
   });
 
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
