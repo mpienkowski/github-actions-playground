@@ -14,6 +14,11 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
+
+  it('should fail', () => {
+    expect(2 + 2).toEqual(5);
+  });
+
   it(`should have as title 'github-actions-playground'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
