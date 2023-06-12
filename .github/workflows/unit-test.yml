@@ -27,3 +27,18 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run test:ci
+
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }} 1
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run test:ci
+
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }} 2
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }} 3
+    - run: echo "An error" >&2
