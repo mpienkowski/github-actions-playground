@@ -8,7 +8,10 @@
     "build:ci": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "test:ci": "ng test --watch=false --browsers=ChromeHeadlessCustom"
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadlessCustom",
+    "test:huge-log": "ng test --watch=false --browsers=ChromeHeadlessCustom --include='**/app/huge-log.spec.ts'",
+    "test:normal-log": "ng test --watch=false --browsers=ChromeHeadlessCustom --include='**/app/normal-log.spec.ts'",
+    "test:small-log": "ng test --watch=false --browsers=ChromeHeadlessCustom --include='**/app/small-log.spec.ts'"
   },
   "private": true,
   "dependencies": {
