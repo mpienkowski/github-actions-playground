@@ -8,12 +8,11 @@ describe('AppComponent', () => {
     declarations: [AppComponent]
   }));
 
-  it('should create the app', () => {
+  it('should create the app start', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
-
 
   it('should fail', () => {
     expect(2 + 2).toEqual(5);
@@ -34,5 +33,393 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain('github-actions-playground app is running!');
+  });
+
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly middle', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
+  });
+  it('should fail spectacularly end', () => {
+    expect(2 * 2).toEqual(77);
   });
 });
