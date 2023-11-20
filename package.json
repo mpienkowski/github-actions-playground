@@ -5,8 +5,13 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:ci": "ng build --prod",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadlessCustom",
+    "test:huge-log": "ng test --watch=false --browsers=ChromeHeadlessCustom --include='**/app/huge-log.spec.ts'",
+    "test:normal-log": "ng test --watch=false --browsers=ChromeHeadlessCustom --include='**/app/normal-log.spec.ts'",
+    "test:small-log": "ng test --watch=false --browsers=ChromeHeadlessCustom --include='**/app/small-log.spec.ts'"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +38,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "puppeteer": "^20.4.0",
     "typescript": "~5.0.2"
   }
 }

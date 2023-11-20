@@ -8,12 +8,11 @@ describe('AppComponent', () => {
     declarations: [AppComponent]
   }));
 
-  it('should create the app', () => {
+  it('should create the app start', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
-
 
   it('should fail', () => {
     expect(2 + 2).toEqual(5);
@@ -23,6 +22,10 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('github-actions-playground');
+  });
+
+  it('should fail spectacularly', () => {
+    expect(2 * 2).toEqual(77);
   });
 
   it('should render title', () => {
